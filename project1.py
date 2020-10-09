@@ -4,8 +4,8 @@
 # Description:
 
 from BinarySearchTree import *
-from time import time_ns
-from random import randint
+#from time import time_ns
+#from random import randint
 
 class City:
 
@@ -129,6 +129,7 @@ if __name__ == '__main__':
     lib.linearSearch("Beebo","name")
     #lib.quickSort()
 
+'''
     #Find city with largest population
     maxPop = None
     for city in lib.cityArray:
@@ -180,3 +181,4 @@ if __name__ == '__main__':
         totalTime = totalTime + (end - start)
     avgTime = (totalTime / iterations) * (1e-9)
     print("Average time to searchBST %s random CIDs, iterations = %s: %s [Seconds]" % (numCity, iterations, avgTime))
+'''
